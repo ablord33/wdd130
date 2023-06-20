@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 body {
     background-color: white;
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-family: 'Quicksand', 'Bradley Hand', sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -87,6 +88,75 @@ h2 {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+}
+
+.sure {
+    font-size: 16px;
+    color: #666;
+  }
+  
+
+.company {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .booking {
+    font-size: 28px;
+    color: #FF5722;
+    margin: 20px 0;
+  }
+  .highlights {
+    font-size: 24px;
+    color: #4CAF50;
+    margin: 20px 0;
+  }
+
+
+  .high {
+    font-size: 16px;
+    color: #333;
+  }
+
+.high p {
+    color: black;
+    padding-bottom: 15px;
+    font-size: 0.8em;
+}
+
+.high h4 {
+    color: white;
+}
+
+.trip {
+    font-size: 16px;
+    color: #666;
+}
+
+
+.trip p {
+    color: black;
+    padding-bottom: 15px;
+    font-size: 0.8em;
+}
+
+.trip h2 {
+    color: white;
+}
+
+.encounter {
+    font-size: 24px;
+    color: #9C27B0;
+    margin: 20px 0;
+}
+
+.blog-pic {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 #hero {
