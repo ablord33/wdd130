@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 body {
     max-width: 1200px;
     margin: 0 auto;
@@ -35,10 +37,21 @@ body {
     background-color: #8ACB88;
   }
   
-  #hero-img {
-    width: 100%;
-    height: auto;
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 10px; 
   }
+  
+  .image-container {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .image-container img {
+    max-width: 100%; 
+  }
+  
   
   nav {
     overflow: hidden;
