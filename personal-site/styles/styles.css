@@ -1,176 +1,179 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
-    text-align: center;
-    background-color: #E4FDE1;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: Oswald;
-    color: rgb(5, 5, 5);
-  }
-  
-  p {
-    font-family: Lora;
-    color: rgb(5, 4, 4);
-    padding: 1.5em;
-  }
-  
-  #content {
-    padding: 16px;
-    max-width: 1600px;
-    margin: 0 auto;
-  }
-  
-  header {
-    margin: 0 auto;
-    text-align: center;
-    background-color: #8ACB88;
-  }
-  
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    grid-gap: 10px; 
-  }
-  
-  .image-container {
-    display: flex;
-    justify-content: center; 
-  }
-  
-  .image-container img {
-    max-width: 100%; 
-  }
-  
-  
-  nav {
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    background-color: #8ACB88;
-  }
-  
-  /* Add the following CSS */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: rgb(47, 29, 211);
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Quicksand;
+  color: rgb(5, 5, 5);
+}
+
+p {
+  font-family: Lora;
+  color: rgb(5, 4, 4);
+  padding: 1.5em;
+}
+
+#content {
+  padding: 16px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  max-width: 100%;
+}
+
+.logo {
+  width: 80px;
+  padding-top: 10px;
+}
 
 main.fam-grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2em;
-  }
-  
-  #fam-img {
-    display: block;
-    width: 30%;
-    height: 500;
-  }
-  
-  p {
-    text-align: left;
-  }
-  
-  nav a {
-    display: block;
-    padding: 1.5em;
-    color: #050507;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    background-color: #575761;
-    color: #FFBF46;
-  }
-  
-  .container {
-    position: relative;
-    width: 50%;
-  }
-  
-  .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #97afb8;
-  }
-  
-  .container:hover .overlay {
-    opacity: 1;
-  }
-  
-  .text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
 
-  
-  footer {
-    margin-top: 200px;
-    background-color: #8ACB88;
-    color: #050505;
+#fam-img {
+  display: block;
+  width: 30%;
+  height: 500;
+}
+
+p {
+  text-align: left;
+}
+
+nav {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #d4d8d8;
+  text-align: center;
+  padding: 35px;
+}
+
+nav a:hover {
+  background-color: #f3f0f0;
+  color: #2947ce;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #97afb8;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+footer {
+  margin-top: 200px;
+  background-color: #292cdb;
+  color: #050505;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  display: block;
+  padding: 1.5em;
+  color: #0f0f8b;
+  text-decoration: none;
+}
+
+footer a:hover {
+  background-color: #575761;
+  color: #fffdfaef;
+}
+
+footer .social img {
+  width: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
   }
-  
-  footer a {
-    color: #060607;
-    text-decoration: none;
+
+  nav a {
+    display: block;
+    padding: 15px;
   }
-  
-  footer a:hover {
-    background-color: #575761;
-    color: #FFBF46;
+
+  #hero-msg h4 {
+    display: none;
   }
-  
-  footer .social img {
-    width: 40px;
+
+  footer {
+    margin-top: 25px;
   }
-  
-  @media screen and (max-width: 600px) {
-    nav {
-      flex-direction: column;
-    }
-  
-    nav a {
-      display: block;
-      padding: 15px;
-    }
-  
-    #hero-msg h4 {
-      display: none;
-    }
-  
-    footer {
-      margin-top: 25px;
-    }
-  }
-  
+}
